@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Navbar from './/navbar_folder';
-import './/assets/css/style.css';
-
+import Navbar from './navbar.js';
+import './style.css';
 class App extends Component {
 
   render() {
